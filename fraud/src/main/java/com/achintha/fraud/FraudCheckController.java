@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("api/v1/fruad/check")
+@RequestMapping("api/v1/fruad-check")
 public class FraudCheckController {
     private final FraudCheckService fraudCheckService;
 
